@@ -40,7 +40,7 @@ const submithandler = (e) =>{
                     isLoggedIn:true
             }))
             localStorage.setItem("auth-token",token)
-            window.location.href = '/home';
+            window.location.href = `${process.env.PUBLIC_URL}/home`;
         }
         else{
             setState(s=>({
