@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Tokenstore/static/css/main.4cc3c91c.chunk.css",
-    "main.js": "/Tokenstore/static/js/main.8a7706a9.chunk.js",
-    "main.js.map": "/Tokenstore/static/js/main.8a7706a9.chunk.js.map",
+    "main.css": "/Tokenstore/static/css/main.51b52ae1.chunk.css",
+    "main.js": "/Tokenstore/static/js/main.013715c1.chunk.js",
+    "main.js.map": "/Tokenstore/static/js/main.013715c1.chunk.js.map",
     "runtime-main.js": "/Tokenstore/static/js/runtime-main.b9451a8a.js",
     "runtime-main.js.map": "/Tokenstore/static/js/runtime-main.b9451a8a.js.map",
-    "static/js/2.f85a129c.chunk.js": "/Tokenstore/static/js/2.f85a129c.chunk.js",
-    "static/js/2.f85a129c.chunk.js.map": "/Tokenstore/static/js/2.f85a129c.chunk.js.map",
+    "static/js/2.5fb54a93.chunk.js": "/Tokenstore/static/js/2.5fb54a93.chunk.js",
+    "static/js/2.5fb54a93.chunk.js.map": "/Tokenstore/static/js/2.5fb54a93.chunk.js.map",
     "index.html": "/Tokenstore/index.html",
-    "static/css/main.4cc3c91c.chunk.css.map": "/Tokenstore/static/css/main.4cc3c91c.chunk.css.map",
-    "static/js/2.f85a129c.chunk.js.LICENSE.txt": "/Tokenstore/static/js/2.f85a129c.chunk.js.LICENSE.txt",
+    "static/css/main.51b52ae1.chunk.css.map": "/Tokenstore/static/css/main.51b52ae1.chunk.css.map",
+    "static/js/2.5fb54a93.chunk.js.LICENSE.txt": "/Tokenstore/static/js/2.5fb54a93.chunk.js.LICENSE.txt",
     "static/media/style.css": "/Tokenstore/static/media/Asset.108e4f08.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b9451a8a.js",
-    "static/js/2.f85a129c.chunk.js",
-    "static/css/main.4cc3c91c.chunk.css",
-    "static/js/main.8a7706a9.chunk.js"
+    "static/js/2.5fb54a93.chunk.js",
+    "static/css/main.51b52ae1.chunk.css",
+    "static/js/main.013715c1.chunk.js"
   ]
 }

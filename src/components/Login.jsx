@@ -1,8 +1,7 @@
 import React,{useState} from 'react';
 import Bar from "./Bar";
-import { Redirect, useHistory } from 'react-router-dom';
 import "./style.css"
-import Asset from '../images/Asset.png'
+
 const Login = () => {
     const initialState = {
         username:'',
@@ -16,14 +15,13 @@ const changehandler = (e) =>{
         [e.target.id]:e.target.value
     }))
 }
-const history = useHistory()
 
 const submithandler = (e) =>{
     e.preventDefault()
-    console.log("submitted value is here : ",state);
+
     const url = "https://reqres.in/api/login"
     const method = "POST"
-
+    console.log("public url : ",process.env.PUBLIC_URL);
     fetch(url,{
         method:method,
         headers:{
@@ -42,7 +40,7 @@ const submithandler = (e) =>{
                     isLoggedIn:true
             }))
             localStorage.setItem("auth-token",token)
-        window.location.href = '/home';
+            window.location.href = '/home';
         }
         else{
             setState(s=>({
