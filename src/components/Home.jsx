@@ -23,6 +23,7 @@ const Home = () => {
         <div className="para">
         <p>token Successfully Stored in localStorage</p>
         </div>
+       
         </React.Fragment>
     );
 };

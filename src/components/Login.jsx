@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import Bar from "./Bar";
 import { Redirect, useHistory } from 'react-router-dom';
 import "./style.css"
+import Asset from '../images/Asset.png'
 const Login = () => {
     const initialState = {
         username:'',
@@ -60,6 +61,7 @@ const submithandler = (e) =>{
        
     return (
         <>
+
         <div className="box" >
         <div className="para">
         <h1>School</h1>
@@ -79,8 +81,7 @@ const submithandler = (e) =>{
                
                 
                 <label for="password">Password</label>
-                <input type="password" value={state.password} onChange={changehandler}  id="password"/>   
-                
+                <input type="password" value={state.password} onChange={changehandler}  id="password"/>    
             <button id="btn" className="btn btn-success" onClick={submithandler}>submit</button>
         </form>
  
