@@ -8,8 +8,9 @@ import "./components/style.css"
     
           
 
-     <BrowserRouter>
-        <App/>
+     <BrowserRouter >
+         
+           <App/>
      </BrowserRouter>
      
 

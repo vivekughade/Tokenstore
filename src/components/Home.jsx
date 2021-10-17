@@ -7,7 +7,7 @@ const Home = () => {
         if (token) {
             localStorage.clear()
         }
-        window.location.href = '/';
+        window.location.href = `${process.env.PUBLIC_URL}/`;
     }
     return (
         <React.Fragment>

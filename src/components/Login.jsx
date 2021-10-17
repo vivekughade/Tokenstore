@@ -15,13 +15,13 @@ const changehandler = (e) =>{
         [e.target.id]:e.target.value
     }))
 }
-
+console.log("public url : ",process.env.PUBLIC_URL);
 const submithandler = (e) =>{
     e.preventDefault()
 
     const url = "https://reqres.in/api/login"
     const method = "POST"
-    console.log("public url : ",process.env.PUBLIC_URL);
+   
     fetch(url,{
         method:method,
         headers:{
