@@ -1,8 +1,14 @@
-import React from 'react';
+import React,{useEffect} from 'react';
+
 
 
 const Home = () => {
+    useEffect(() => {
+        window.history.back()
+        
+    }, [])
     const clickhandler = (e) => {
+       
         const token = localStorage.getItem('auth-token')
         if (token) {
             localStorage.clear()

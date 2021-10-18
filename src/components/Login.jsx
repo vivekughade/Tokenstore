@@ -40,6 +40,7 @@ const submithandler = (e) =>{
                     isLoggedIn:true
             }))
             localStorage.setItem("auth-token",token)
+            
         window.location.href = '/home';
         }
         else{
