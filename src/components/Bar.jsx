@@ -5,7 +5,7 @@ const Bar = () => {
         <>
         <div className="bar">
             <NavLink exact className="n" to="/">LOGIN</NavLink>
-            <NavLink className="n"to="/signup">SIGNUP</NavLink>
+            <NavLink className="n" to="/signup">SIGNUP</NavLink>
         </div>
             
         </>

@@ -8,21 +8,21 @@ import Signup from './Signup';
 import "./style.css"
 const App = () => {
     const [state, setState] = useState({token:localStorage.getItem('auth-token')})
-   const basePath = process.env.PUBLIC_URL
+   
     return (
         <>
         <div className="img">
        
 {   state.token?    
         <Switch>
-            <Route  exact path={`${basePath}/home`} component={Home} />
-            <Route render={()=><Redirect to={`${basePath}/home`} />} />
+            <Route  exact path={`/home`} component={Home} />
+            <Route render={()=><Redirect to={`/home`} />} />
         </Switch>
     :
     <Switch>
-            <Route exact path={`${basePath}/`} component={Login}/>
-            <Route  exact path={`${basePath}/signup`} component={Signup}/>
-            <Route render={()=><Redirect to={`${basePath}/`} />} />
+            <Route exact path={`/`} component={Login}/>
+            <Route  exact path={`/signup`} component={Signup}/>
+            <Route render={()=><Redirect to={`/`} />} />
     </Switch>
 
 }
