@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Tokenstore/static/css/main.ab67fcca.chunk.css",
-    "main.js": "/Tokenstore/static/js/main.de0cd9d3.chunk.js",
-    "main.js.map": "/Tokenstore/static/js/main.de0cd9d3.chunk.js.map",
+    "main.js": "/Tokenstore/static/js/main.623db371.chunk.js",
+    "main.js.map": "/Tokenstore/static/js/main.623db371.chunk.js.map",
     "runtime-main.js": "/Tokenstore/static/js/runtime-main.b9451a8a.js",
     "runtime-main.js.map": "/Tokenstore/static/js/runtime-main.b9451a8a.js.map",
     "static/js/2.e21fecbd.chunk.js": "/Tokenstore/static/js/2.e21fecbd.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.b9451a8a.js",
     "static/js/2.e21fecbd.chunk.js",
     "static/css/main.ab67fcca.chunk.css",
-    "static/js/main.de0cd9d3.chunk.js"
+    "static/js/main.623db371.chunk.js"
   ]
 }
